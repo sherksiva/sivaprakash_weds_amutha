@@ -35,7 +35,15 @@ $(document).ready(function () {
     //     //     document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
     //     // }
     // }, 1000);
-
+    // document.getElementById("my_audio").play();
+    $(document).on('click', function(){
+        // document.getElementById("my_audio").play();
+        console.log('Shaadi me zaroor aana');
+    });
+    if(document.getElementById("my_audio")) {
+        document.getElementById("my_audio").play();
+    
+        }
     // being a bit cool :p  
     var styles = [
         'background: linear-gradient(#D33106, #571402)'

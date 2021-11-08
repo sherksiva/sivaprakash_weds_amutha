@@ -580,6 +580,7 @@ a {
 }
 .number {
 	color: #674ea7;
+	line-height: 40px;
 }
 
 @media only screen and (max-width: 600px) {
